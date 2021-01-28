@@ -1,0 +1,441 @@
+.home{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    float: left;
+    left: 0%;
+    top: 0px;
+}
+
+.banner{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.10s;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+
+.route1{
+    position: absolute;
+    float: left;
+    left: 10%;
+    top: 260px;
+}
+
+.button11 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button11:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+
+.route2{
+    position: absolute;
+    float: left;
+    left: 19%;
+    top: 260px;
+    
+}
+
+.button12 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button12:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .route2:hover .dropdown-content {
+    display: block;
+  }
+  
+  .route2:hover .button12 {
+    background-color: #3e8e41;
+  }
+
+
+
+
+
+
+.route3{
+    position: absolute;
+    float: left;
+    left: 28%;
+    top: 260px;
+}
+
+
+.button13 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button13:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+ 
+.route4{
+    position: absolute;
+    float: left;
+    left: 40%;
+    top: 260px;
+}
+
+.button14 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button14:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+ 
+.route5{
+    position: absolute;
+    float: left;
+    left: 51%;
+    top: 260px;
+}
+
+.button15 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button15:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.detail{
+    position: absolute;
+    float: left;
+    left: 0%;
+    top: 330px;
+    width: 100%;
+}
+
+.com_name{
+    position: absolute;
+    float: left;
+    left: 37%;
+    top: 10px;
+}
+
+.con_det{
+    position: absolute;
+    float: left;
+    left: 40%;
+    top: 55px;
+}
+
+
+.find_product{
+    position: absolute;
+    float: left;
+    left: 10%;
+    width: 20%;
+    top: 500px;
+
+}
+
+.label1{
+    position: absolute;
+    float: left;
+    left: 0%;
+    top: 0px;
+}
+
+.bees{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    top: 50px;
+    height: 10px;
+}
+
+.button21 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button21:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.beebox{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    top: 95px;
+    height: 20px;
+}
+
+.button22 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button22:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.beestand{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    top: 140px;
+    height: 20px;
+}
+
+.button23 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button23:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.honey{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    top: 185px;
+    height: 20px;
+}
+
+.button24 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button24:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.honeyextractor{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    top: 230px;
+    height: 20px;
+}
+
+.button25 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button25:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.gloves{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    top: 275px;
+    height: 20px;
+}
+
+.button26 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button26:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+.mask{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    top: 320px;
+    height: 20px;
+}
+
+.button27 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button27:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .frames{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    top: 370px;
+    height: 20px;
+}
+
+.button28 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button28:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .smoker{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    top: 420px;
+    height: 20px;
+}
+
+.button29 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button29:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .knife{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    top: 470px;
+    height: 20px;
+}
+
+.button30 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button30:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+  .fullbeesetup{
+    position: absolute;
+    float: left;
+    left: 0%;
+    width: 100%;
+    top: 520px;
+    height: 20px;
+}
+
+.button31 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button31:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .tagline{
+    position: absolute;
+    float: left;
+    left: 33%;
+    top: 550px;
+    background-color: rgb(182, 114, 89);
+  }
+
+  .copyright{
+    position: absolute;
+    float: left;
+    left: 0%;
+    top: 1200px;
+    background-color: coral;
+    width: 100%;
+  }
+
+  .content{
+    position: relative;
+    float: left;
+    left: 10%;
+    top: 10px;
+  }
+  

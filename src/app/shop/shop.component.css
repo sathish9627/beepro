@@ -1,0 +1,104 @@
+.shop{
+    position: absolute;
+    top: 450px;
+    float: left;
+    left: 30%;
+    width: 60%;
+    
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+.bees{
+    position: absolute;
+    top: 0px;
+    float: left;
+    left: 10%;
+}
+
+.beebox{
+    position: absolute;
+    top: 0px;
+    float: left;
+    left: 40%;
+}
+
+.beestand{
+    position: absolute;
+    top: 0px;
+    float: left;
+    left: 70%;
+}
+
+.honey{
+    position: absolute;
+    top: 200px;
+    float: left;
+    left: 10%;
+}
+
+.honeyextractor{
+    position: absolute;
+    top: 200px;
+    float: left;
+    left: 40%;
+}
+
+.gloves{
+    position: absolute;
+    top: 200px;
+    float: left;
+    left: 70%;
+}
+
+.mask{
+    position: absolute;
+    top: 390px;
+    float: left;
+    left: 10%;
+}
+
+.frames{
+    position: absolute;
+    top: 390px;
+    float: left;
+    left: 40%;
+}
+
+.smoker{
+    position: absolute;
+    top: 390px;
+    float: left;
+    left: 70%;
+}
+
+.knife{
+    position: absolute;
+    top: 550px;
+    float: left;
+    left: 25%;
+}
+
+.fullbeesetup{
+    position: absolute;
+    top: 550px;
+    float: left;
+    left: 55%;
+}

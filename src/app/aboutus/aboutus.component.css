@@ -1,0 +1,31 @@
+.location{
+    position: absolute;
+    width: 60%;
+    float: left;
+    left: 30%;
+    top: 500px;
+}
+
+.locate1{
+    position: absolute;
+    float: left;
+    left: 5%;
+    width: 25%;
+    top: 70px;
+}
+
+.locate2{
+    position: absolute;
+    float: left;
+    left: 35%;
+    width: 25%;
+    top: 70px;
+}
+
+.locate3{
+    position: absolute;
+    float: left;
+    left: 70%;
+    width: 25%;
+    top: 70px;
+}

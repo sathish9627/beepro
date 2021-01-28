@@ -1,0 +1,73 @@
+.homeinfo{
+    position: absolute;
+    top:250px;
+    float: left;
+    left: 25%;
+ }
+
+.content{
+    position: relative;
+    top: 250px;
+    float: left;
+    left: 10%;
+    background-color: lightblue;
+
+}
+
+.supply{
+position: relative;
+top: 300px;
+float: left;
+left: 5%;
+width: 90%;
+}
+
+.list{
+    position: relative;
+    top: 350px;
+    float: left;
+    left: 30%;
+    width: 40%;
+}
+
+.order{
+    position: relative;
+    top: 520px;
+    float: left;
+    left: -15%;
+    width: 60%;
+
+}
+
+.number{
+    position: absolute;
+    top: 50px;
+    float: left;
+    left: 10%;
+}
+
+
+
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .content {
+      width: 80%;
+      padding: 0;
+    }
+    .supply {
+      width: 100%;
+    }
+    .list {
+        width: 100%;
+      }
+    .order {
+        width: 100%;
+      }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .content, .supply, .list, .order {
+      width: 100%;
+    }
+  }

@@ -1,0 +1,105 @@
+
+
+<div class="honey">
+
+    <div class="heading">  <h1 style="left: 150px; position: relative;">Bee Honey</h1>  </div>  
+
+    <div class="honey_info">
+
+
+        <form [formGroup]="honeyForm" (ngSubmit)="onSubmit()">
+
+           
+            <div class="form-group honey1">
+              <label for="inputHoney"><b>Quantity of honey</b></label>
+              <input class="form-control" type="number" formControlName="quantityofhoney" [ngClass]="{ 'is-invalid': submitted && myForm.quantityofhoney.errors }"><b>Grams</b>
+              <!-- error -->
+             <div class="invalid-feedback" *ngIf="submitted && myForm.quantityofhoney.errors?.required">
+                Quantity of honey is required.
+              </div>   
+            </div>
+  
+    
+            <div class="form-group mobileno">
+              <label for="inputMobilNo"><b>Mobile No</b></label>
+              <input class="form-control" type="number" formControlName="phonenumber" [ngClass]="{ 'is-invalid': submitted && myForm.phonenumber.errors }">
+              <!-- error -->
+              <div class="invalid-feedback" *ngIf="submitted && myForm.phonenumber.errors?.required">
+                Enter your phone number.
+              </div>
+              <div class="invalid-feedback" *ngIf="submitted && myForm.phonenumber.errors?.pattern">
+                Enter Correct Numbers
+              </div>
+            </div>
+  
+            <div class="form-group addressline1">
+                <label for="inputAddressline1"><b>Address line1</b></label>
+                <input class="form-control" type="text" formControlName="addressline1" [ngClass]="{ 'is-invalid': submitted && myForm.addressline1.errors }">
+                <!-- error -->
+               <div class="invalid-feedback" *ngIf="submitted && myForm.addressline1.errors?.required">
+                  Address line1 is required.
+                </div>   
+            </div>
+
+            <div class="form-group addressline2">
+                <label for="inputAddressline2"><b>Address line2</b></label>
+                <input class="form-control" type="text" formControlName="addressline2" [ngClass]="{ 'is-invalid': submitted && myForm.addressline2.errors }">
+                <!-- error -->
+               <div class="invalid-feedback" *ngIf="submitted && myForm.addressline2.errors?.required">
+                  Address line2 is required.
+                </div>   
+            </div>
+
+            <div class="form-group pincode">
+                <label for="inputPincode"><b>Pincode</b></label>
+                <input class="form-control" type="number" formControlName="pincode" [ngClass]="{ 'is-invalid': submitted && myForm.pincode.errors }">
+                <!-- error -->
+                <div class="invalid-feedback" *ngIf="submitted && myForm.pincode.errors?.required">
+                  Enter your pincode.
+                </div>
+                <div class="invalid-feedback" *ngIf="submitted && myForm.pincode.errors?.pattern">
+                  Enter Correct pincode
+                </div>
+            </div>
+
+            <div class="form-group queries">
+                <label for="inputQueries"><b>Queries</b></label>
+                <input class="form-control" type="text" formControlName="queries">
+            </div>
+    
+            <div class="form-group buttons">
+              <button class="btn btn-success btn-lg btn-block" type="submit reset">submit</button>
+              <button class="btn btn-primary btn-lg btn-block" type="reset">Refresh</button>
+            </div>
+  
+          </form>
+
+          <div class="pricerate">
+            
+            <img src="./../../assets/honey.jpg" width="125px" height="125px"/>
+
+            <h5 style="color: brown; width: 100%;" class="rate"> Honey 1Kg 600rs</h5>
+            
+          </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+    <router-outlet></router-outlet>
+</div>

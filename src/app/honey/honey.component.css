@@ -1,0 +1,123 @@
+
+.honey{
+    position: absolute;
+    width: 55%;
+    float: left;
+    left: 30%;
+    top: 450px;
+    background-color: lightcoral;
+
+}
+
+.heading{
+    position: absolute;
+    width: 100%;
+    float: left;
+    left: 5%;
+    top: 0%;
+}
+
+.honey_info{
+    position: absolute;
+    float: left;
+    left: 10%;
+    width: 50%;
+    top: 80px;
+}
+
+.honey1{
+    position: absolute;
+    float: left;
+    left: 10%;
+    width: 80%;
+    top: 0px;
+}
+
+.mobileno{
+    position: absolute;
+    float: left;
+    left: 10%;
+    width: 80%;
+    top: 85px;
+}
+
+.addressline1{
+    position: absolute;
+    float: left;
+    left: 5%;
+    width: 40%;
+    top: 170px;
+}
+
+.addressline2{
+    position: absolute;
+    float: right;
+    right: 5%;
+    width: 40%;
+    top: 170px;
+}
+
+.pincode{
+    position: absolute;
+    float: left;
+    left: 10%;
+    width: 80%;
+    top: 270px;
+}
+
+.queries{
+    position: absolute;
+    float: left;
+    left: 10%;
+    width: 80%;
+    top: 370px;
+}
+
+.buttons{
+    position: absolute;
+    float: left;
+    left: 5%;
+    width: 100%;
+    top: 470px;
+}
+
+
+.pricerate{
+    position: absolute;
+    float: left;
+    left: 150%;
+    top: 140px;
+}
+
+img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.rate {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example{
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
